@@ -9,9 +9,9 @@
 namespace caffe {
 //memory reduced change
 template <typename Dtype>
-Blob<Dtype> BaseConvolutionLayer<Dtype>::col_buffer_;
+//Blob<Dtype> BaseConvolutionLayer<Dtype>::col_buffer_;
 //end memory reduced change
-template <typename Dtype>
+//template <typename Dtype>
 void BaseConvolutionLayer<Dtype>::LayerSetUp(const vector<Blob<Dtype>*>& bottom,
       const vector<Blob<Dtype>*>& top) {
   // Configure the kernel size, padding, stride, and inputs.
